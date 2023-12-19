@@ -7,38 +7,23 @@ function App() {
     <div className="App">
        <div style={{ position: "relative" }}>
     <img
-      src="../Image/bookbg.jpg"
+      src="../Image/bgcrop.jpg"
       alt="bookBG"
       className="w-full opacity-100"
       style={{ position: "absolute", top: 0, left: 0, zIndex: -1 }}
     />
-    <div className="absolute flex flex-row w-full h-[100px] bg-white bg-opacity-100 items-center justify-center">
-      <div className="flex flex-col font-light  pl-[20px] text-orange-400 text-3xl">
-        Swap
-      </div>
-      <div className="flex flex-col font-bold  pl-[20px] text-orange-600 text-5xl">
-        StorySwap
-      </div>
-      <div className="flex flex-col font-light pl-[20px] text-orange-400 text-3xl">
-        Swap
+    <div className="w-full h-20 lg:h-28 text-white opacity-100" >
+      <div className="max-w-screen-2xl h-full mx-auto px-4 flex items-center justify-between">
+      <h1 className="text-5xl font-extrabold pl-[60px] ">StorySwap</h1>
+        <ul className="hidden lg:inline-flex items- gap-8 uppercase text-sm font-semibold pr-[80px]">
+          <li className="hover:text-hoverColor cursor-pointer duration-300  hover:text-yellow-300">Home</li>
+          <li className="hover:text-hoverColor cursor-pointer duration-300  hover:text-yellow-300">How it works?</li>
+          <li className="hover:text-hoverColor cursor-pointer duration-300  hover:text-yellow-300">About Us</li>
+        </ul>
+         
       </div>
     </div>
   </div>
-      {/* <header className="App-header">
-
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="font-bold text-center text-6xl text-teal-500">
-          Fuck it we ball
-        </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }
