@@ -29,15 +29,18 @@ function App() {
                       </div>
                     </div>
                   </div>
-                <div className="flex items-center justify-center w-2/4 h-[550px]">
+                <div className="flex flex-col items-center justify-center w-2/4 h-[550px]">
                   <div className="flex flex-row">
                   <img className="w-[380px] h-[380px]" src="./Image/profilePic.png"></img>
+                  </div>
+                  <div className="flex flex-row font-jose text-white">
+                    
                   </div>
                 </div>
                </div> 
                <div className="w-full h-[60px]">
                 <div className="text-white font-jose">
-                    This website is made using React, TypeScript , Tailwind and 💓
+                    This website is made using React, TypeScript, Tailwind and 💓
                 </div>
 
                </div>
