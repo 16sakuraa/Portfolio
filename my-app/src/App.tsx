@@ -41,10 +41,15 @@ function App() {
                   </div>
                 </div>
                </div> 
-               <div className="w-full h-[60px]">
-                <div className="text-white font-jose">
+               <div className="flex flex-col items-center justify-center w-full h-[60px]">
+                <div className="flex flex-row text-white font-jose">
                     This website is made using React, TypeScript, Tailwind and 💓
                 </div>
+                <Link to={"https://github.com/16sakuraa/Portfolio"} target="_blank" >
+                  <div className="flex flex-row text-white font-jose underline hover:text-yellow-300">
+                      See source code 
+                  </div>
+                </Link>
 
                </div>
       </div>
