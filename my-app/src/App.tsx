@@ -20,6 +20,9 @@ function App() {
                       <div className="flex flex-row text-4xl font-jose mt-2 text-left">
                         A Frontend Developer
                       </div>
+                      {/* <div className="flex flex-row text-3xl font-jose mt-2 text-left">
+                        Third Year Student From KMITL
+                      </div> */}
                       <div className="flex flex-row mt-3">
 
                         <Link to={"https://www.facebook.com/16sakuraa/"} target="_blank"><img className="w-[40px] h-[40px]" src="./Image/fbIcon.png"></img></Link>
