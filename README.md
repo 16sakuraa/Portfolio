@@ -2,7 +2,7 @@
 
 - A website made by me (for me) using mostly TypeScript.
 - Everything is frontend side.
-
+- Plan on deploying real soon.
 
 ## Screenshots
 
