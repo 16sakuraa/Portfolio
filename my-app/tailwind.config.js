@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "bannerbg": "url('../public/Image/bgImage.jpg')"
+      },
+      fontFamily: {
+        "jose": ['Josefin Sans']
       }
     },
   },
