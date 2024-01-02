@@ -11,13 +11,13 @@ function App() {
              <div className="flex flex-row w-full ">
                   <div className="flex items-center justify-center w-2/4 h-[550px] ">
                     <div className="flex flex-col text-white">
-                      <div className="flex flex-row text-7xl font-jose mt-2 text-left">
+                      <div className="flex flex-row text-8xl font-jose mt-2 text-left">
                         Hello There,
                       </div>
-                      <div className="flex flex-row text-7xl font-jose mt-2 text-left">
-                        <div>I'm</div><div className="text-yellow-400 ml-[10px]">Suppaphol</div>
+                      <div className="flex flex-row text-8xl font-jose mt-2 text-left">
+                        <div>I'm</div><div className="text-yellow-400 ml-[15px]">Suppaphol</div>
                       </div>
-                      <div className="flex flex-row text-4xl font-jose mt-2 text-left">
+                      <div className="flex flex-row text-5xl font-jose mt-2 text-left">
                         A Frontend Developer
                       </div>
                       {/* <div className="flex flex-row text-3xl font-jose mt-2 text-left">
