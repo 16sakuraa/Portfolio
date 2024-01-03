@@ -12,13 +12,16 @@ function About(){
                         <div className="flex flex-row text-white text-5xl font-jose">About Me</div>
                             <div className="flex flex-col w-[680px] bg-slate-800 bg-opacity-50 mt-[15px] rounded-lg">
                                 <div className="flex flex-row text-white text-lg font-jose ml-[30px] mt-[5px]">
-                                    - Third Year Student from King Mongkut's Institute of Technology Ladkrabang
+                                    - Suppaphol Areewattanawong, 21. Nickname's Oat
+                                </div>
+                                <div className="flex flex-row text-white text-lg font-jose ml-[30px] ">
+                                - Third Year Student from King Mongkut's Institute of Technology Ladkrabang
                                 </div>
                                 <div className="flex flex-row text-white text-lg font-jose ml-[15px]">
                                     Bachelor of Engineering, Computer Major
                                 </div>
                                 <div className="flex flex-row text-white text-lg font-jose ml-[30px] ">
-                                    - Stay hungry, Stay Foolish
+                                - GPA 3.06
                                 </div>
                                 
                                 
