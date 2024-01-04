@@ -3,7 +3,17 @@ import logo from './logo.svg';
 import NavBar from './component/navbar';
 import './App.css';
 import { Link } from 'react-router-dom';
+import { useTypewriter,Cursor } from 'react-simple-typewriter';
 function App() {
+  const [text] = useTypewriter({
+    words: [
+      "A Frontend Developer",
+    ],
+    loop: false,
+    typeSpeed: 20,
+    deleteSpeed: 30,
+    delaySpeed: 2000,
+});
   return (
     <div className="App">
       <div className="w-full h-screen bg-bannerbg bg-center">
@@ -17,12 +27,9 @@ function App() {
                       <div className="flex flex-row text-8xl font-jose mt-2 text-left">
                         <div>I'm</div><div className="text-yellow-400 ml-[15px]">Suppaphol</div>
                       </div>
-                      <div className="flex flex-row text-5xl font-jose mt-2 text-left">
-                        A Frontend Developer
-                      </div>
-                      {/* <div className="flex flex-row text-3xl font-jose mt-2 text-left">
-                        Third Year Student From KMITL
-                      </div> */}
+                      <p className="flex flex-row text-5xl font-jose mt-2 text-left">
+                          {text} <Cursor cursorBlinking cursorStyle="|" cursorColor="#ffaa17" />
+                      </p>
                       <div className="flex flex-row mt-3">
 
                         <Link to={"https://www.facebook.com/16sakuraa/"} target="_blank"><img className="w-[40px] h-[40px]" src="./Image/fbIcon.png"></img></Link>
@@ -34,7 +41,7 @@ function App() {
                   </div>
                 <div className="flex flex-col items-center justify-center w-2/4 h-[550px]">
                   <div className="flex flex-row">
-                  <img className="w-[380px] h-[380px]" src="./Image/profilePic.png"></img>
+                  <img className="w-[450px]" src="./Image/profilePic.png"></img>
                   </div>
                   <div className="flex flex-row font-jose text-white">
                     

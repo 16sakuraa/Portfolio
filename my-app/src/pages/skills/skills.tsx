@@ -22,7 +22,7 @@ function Skills(){
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
                     <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl ">
                         - A travelling website made by using Next.js, React and Typescript.<br></br>
-                        - My role in this project creating Frontend, connect to Backend using Axios and deploying website.<br></br>
+                        - My role in this project is creating Frontend, connect to Backend using Axios and deploying website.<br></br>
                         - Features included are Login/Register, Rating and Review.
                     </div>
                 </div>
