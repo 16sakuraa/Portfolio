@@ -9,7 +9,8 @@ module.exports = {
         "bannerbg": "url('../public/Image/bgImage.jpg')"
       },
       fontFamily: {
-        "jose": ['Josefin Sans']
+        "jose": ['Josefin Sans'],
+        "josebold": ['Josefin Sans Bold']
       }
     },
   },
