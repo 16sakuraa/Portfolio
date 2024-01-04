@@ -13,10 +13,10 @@ function Skills(){
                 </div>
                 <div className="flex flex-row ">
                         <ImageSelect
-                        imgSrc1="/Image/skills/test1.png"
-                        imgSrc2="/Image/skills/test2.jpg"
-                        imgSrc3="/Image/skills/test3.png"
-                        imgSrc4="/Image/skills/test4.jpg"
+                        imgSrc1="/Image/skills/tt1.png"
+                        imgSrc2="/Image/skills/tt2.png"
+                        imgSrc3="/Image/skills/tt3.png"
+                        imgSrc4="/Image/skills/tt4.png"
                         ></ImageSelect>
                 </div>
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
@@ -45,6 +45,10 @@ function Skills(){
                 <div className="flex flex-row w-full mt-[20px] font-jose text-white text-4xl">
                         Working in Progress : Unity Game Project
                 </div>
+                <div className="flex flex-col items-center justify-center mt-4">
+                    <img src="/Image/skills/unityGif.gif" alt="imageAlt" className="w-[720px] rounded-xl" ></img>
+                </div>
+                
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
                     <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl mb-[10px]">
                         - My personal project.<br></br>
