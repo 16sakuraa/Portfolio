@@ -20,7 +20,7 @@ function Skills(){
                         ></ImageSelect>
                 </div>
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
-                    <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl ">
+                    <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl mb-[10px]">
                         - A travelling website made by using Next.js, React and Typescript.<br></br>
                         - My role in this project is creating Frontend, connect to Backend using Axios and deploying website.<br></br>
                         - Features included are Login/Register, Rating and Review.
@@ -32,12 +32,12 @@ function Skills(){
                 </div>
                 <div className="flex flex-col items-center justify-center mt-4">
                     <img src="/Image/skills/tocScreenshot.png" alt="imageAlt" className="w-[720px] rounded-xl" ></img>
-                    <div className="flex text-white mt-[3px] font-jose underline">
+                    <div className="flex text-white mt-[10px] font-jose underline">
                     <Link to={"https://16sakuraa.github.io/PasswordGame/"} target="_blank" >Try the game!</Link><br></br>
                     </div>
                 </div>
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
-                    <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl ">
+                    <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl mb-[10px]">
                         - A password game made by using HTML and Javascript.<br></br>
                         - My role in this website is creating a Javascript and deploy using GitHub.<br></br>
                     </div>
@@ -46,7 +46,7 @@ function Skills(){
                         Working in Progress : Unity Game Project
                 </div>
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
-                    <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl ">
+                    <div className="flex flex-row w-full mt-[10px] ml-7 font-jose text-white text-2xl mb-[10px]">
                         - My personal project.<br></br>
                         - Create by using Unity and C# Script.<br></br>
                         - Also made by my curiosity and passion.

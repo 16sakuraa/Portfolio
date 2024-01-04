@@ -24,8 +24,12 @@ function About(){
                                 - GPA 3.06
                                 </div>
                                 
-                                
                             </div>
+                            <div className="w-[165px] bg-green-600 rounded-lg hover:bg-green-800 mt-5">
+                                    <div className="flex flex-row text-white text-lg font-jose ml-2 mr-2 mt-1 ">
+                                        Download Resume
+                                    </div>
+                                </div>
                         
                         </div>
 
