@@ -21,7 +21,7 @@ const ImageSelect: React.FC<ImageSelect> = ({imgSrc1,imgSrc2,imgSrc3,imgSrc4}) =
       <img src={path} alt="imageAlt" className="h-[410px] rounded-xl" id="bigPic"></img>
       <div className="flex flex-col gap-3">
         <button className="hover:opacity-50" type="button" onClick={() => handleImageClick(imgSrc1)}>
-          <img src={imgSrc1} alt="imageAlt" className="w-[207px] rounded-xl" id="1"></img>
+          <img src={imgSrc1} alt="imageAlt" className="w-[207px] rounded-xl " id="1"></img>
         </button>
         <button className="hover:opacity-50" type="button" onClick={() => handleImageClick(imgSrc2)}>
           <img src={imgSrc2} alt="imageAlt" className="w-[207px] rounded-xl" id="2"></img>

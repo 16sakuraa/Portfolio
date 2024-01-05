@@ -1,9 +1,6 @@
 import NavBar from "../../component/navbar"
 import CatCard from "../../component/catCard";
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
+import {Pagination} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
