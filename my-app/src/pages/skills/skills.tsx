@@ -43,7 +43,7 @@ function Skills(){
                     </div>
                 </div>
                 <div className="flex flex-row w-full mt-[20px] font-jose text-white text-4xl">
-                        Working in Progress : Unity Game Project
+                        Unity Game Project : Working in Progress
                 </div>
                 <div className="flex flex-col items-center justify-center mt-4">
                     <img src="/Image/skills/unityGif.gif" alt="imageAlt" className="w-[720px] rounded-xl" ></img>
