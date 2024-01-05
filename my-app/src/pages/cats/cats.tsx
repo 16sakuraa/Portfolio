@@ -35,47 +35,49 @@ function Cats(){
                     ></CatCard>
                     
                 </div> */}
-                <div className="flex flex-row font-jose text-slate-800 w-1/2 ">
-                <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
-                        pagination={{
-                        clickable: true,
-                        }}
-                        modules={[Pagination]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <CatCard
-                                img="/Image/cats/cokePic.jpg"
-                                name="Coke"
-                                age="7"
-                            ></CatCard>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <CatCard
-                                img="/Image/cats/cokePic.jpg"
-                                name="Coke"
-                                age="7"
-                            ></CatCard>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <CatCard
-                                img="/Image/cats/cokePic.jpg"
-                                name="Coke"
-                                age="7"
-                            ></CatCard>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <CatCard
-                                img="/Image/cats/cokePic.jpg"
-                                name="Coke"
-                                age="7"
-                            ></CatCard>
-                        </SwiperSlide>
+                <div className="flex w-full items-center justify-center">
+                    <div className="flex flex-row font-jose text-slate-800 w-[810px]">
+                    <Swiper
+                            slidesPerView={3}
+                            spaceBetween={30}
+                            pagination={{
+                            clickable: true,
+                            }}
+                            modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide>
+                                <CatCard
+                                    img="/Image/cats/cokePic.jpg"
+                                    name="Coke"
+                                    age="7"
+                                ></CatCard>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <CatCard
+                                    img="/Image/cats/cokePic.jpg"
+                                    name="Coke"
+                                    age="7"
+                                ></CatCard>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <CatCard
+                                    img="/Image/cats/cokePic.jpg"
+                                    name="Coke"
+                                    age="7"
+                                ></CatCard>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <CatCard
+                                    img="/Image/cats/cokePic.jpg"
+                                    name="Coke"
+                                    age="7"
+                                ></CatCard>
+                            </SwiperSlide>
 
 
-                 </Swiper>
+                    </Swiper>
+                    </div>
                  </div>
             </div>
         </main>
