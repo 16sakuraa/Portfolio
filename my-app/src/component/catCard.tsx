@@ -19,8 +19,8 @@ const CatCard: React.FC<CatCard> = ({img,name,age}) => {
                         {name}
                     </div>
 
-                    <div className="flex flex-row">
-                        Age : {age}
+                    <div className="flex flex-row text-2xl">
+                        Age : {age} Year(s)
                     </div>
     </div>
   );

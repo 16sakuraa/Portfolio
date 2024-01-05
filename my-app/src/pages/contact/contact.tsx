@@ -9,9 +9,12 @@ function Contact(){
                         <div className="text-5xl mt-5">
                             Contact Me
                         </div>
-                        <div className="text-2xl mb-5">
+                        <div className="text-2xl mt-2 mb-2">
                             Email : suppaphol.ar@gmail.com<br></br>
                             Tel : 0993924254
+                        </div>
+                        <div className="text-md mb-3">
+                            Thank you for checking out my portfolio
                         </div>
                     </div>
                 </div>
