@@ -50,11 +50,13 @@ function About(){
                                 </div>
                                 
                             </div>
-                            <div className="w-[165px] bg-green-600 rounded-lg hover:bg-green-800 mt-5">
-                                    <div className="flex flex-row text-white text-lg  ml-2 mr-2 mt-1 ">
-                                        Download Resume
-                                    </div>
+                            <button type="button">
+                                <div className="w-[165px] bg-green-600 rounded-lg hover:bg-green-800 mt-5">
+                                        <div className="flex flex-row text-white text-lg  ml-2 mr-2 mt-2 ">
+                                            Download Resume
+                                        </div>
                                 </div>
+                            </button>
                         
                         </div>
 

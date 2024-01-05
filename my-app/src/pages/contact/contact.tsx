@@ -11,7 +11,7 @@ function Contact(){
                         </div>
                         <div className="text-2xl mt-2 mb-2">
                             Email : suppaphol.ar@gmail.com<br></br>
-                            Tel : 0993924254
+                            Tel : 0993924254 (Oat)
                         </div>
                         <div className="text-md mb-3">
                             Thank you for checking out my portfolio
