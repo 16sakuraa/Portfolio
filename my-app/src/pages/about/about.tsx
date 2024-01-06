@@ -57,21 +57,13 @@ function About(){
                                 <div className="flex flex-row ml-[30px] mt-[5px]">
                                     - Suppaphol Areewattanawong, 21. Nickname's Oat
                                 </div>
-                                <div className="flex flex-row ml-[30px] ">
-                                - Third Year Student from King Mongkut's Institute of Technology Ladkrabang
-                                </div>
-                                <div className="flex flex-row ml-[15px]">
-                                    Bachelor of Engineering, Computer Major
-                                </div>
-                                <div className="flex flex-row ml-[30px] ">
-                                - GPA 3.06
-                                </div>
+
                                 
                             </div>
                             <button type="button">
-                                <div className="w-[165px] bg-green-600 rounded-lg hover:bg-green-800 mt-5">
+                                <div className="w-[220px] bg-green-600 rounded-lg hover:bg-green-800 mt-5">
                                         <div className="flex flex-row text-white text-lg  ml-2 mr-2 mt-2 ">
-                                            Download Resume
+                                            Download Resume (.pdf)
                                         </div>
                                 </div>
                             </button>
