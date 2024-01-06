@@ -46,7 +46,13 @@ function Skills(){
                         Unity Game Project : Working in Progress
                 </div>
                 <div className="flex flex-col items-center justify-center mt-4">
-                    <img src="/Image/skills/unityGif.gif" alt="imageAlt" className="w-[720px] rounded-xl" ></img>
+                    {/* <img src="/Image/skills/unityGif.gif" alt="imageAlt" className="w-[720px] rounded-xl" ></img> */}
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NFNzK5T0_jo?si=ALuYeb9kzwXNZc7W" 
+                    title="YouTube video player" frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowFullScreen>
+                        
+                    </iframe>
                 </div>
                 
                 <div className="flex w-full bg-slate-900 bg-opacity-50 mt-[15px] rounded-lg">
