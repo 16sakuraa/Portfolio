@@ -18,16 +18,16 @@ function App() {
     <div className="App">
       <div className="w-full h-screen bg-bannerbg bg-center">
              <NavBar></NavBar>
-             <div className="flex flex-row w-full ">
+             <div className="flex flex-row w-full font-jose">
                   <div className="flex items-center justify-center w-2/4 h-[550px] ">
                     <div className="flex flex-col text-white">
-                      <div className="flex flex-row text-8xl font-jose mt-2 text-left">
+                      <div className="flex flex-row text-8xl  mt-2 text-left">
                         Hello There,
                       </div>
-                      <div className="flex flex-row text-8xl font-jose mt-2 text-left">
+                      <div className="flex flex-row text-8xl  mt-2 text-left">
                         <div>I'm</div><div className="text-yellow-400 ml-[15px]">Suppaphol</div>
                       </div>
-                      <p className="flex flex-row text-5xl font-jose mt-2 text-left">
+                      <p className="flex flex-row text-5xl  mt-2 text-left">
                           {text} <Cursor cursorBlinking cursorStyle="|" cursorColor="#ffaa17" />
                       </p>
                       <div className="flex flex-row mt-3">
@@ -37,23 +37,30 @@ function App() {
                         <Link to={"https://github.com/16sakuraa"} target="_blank" ><img className="w-[40px] h-[40px] ml-[20px]" src="./Image/githubIcon.png"></img></Link>
                         
                       </div>
+                      <button type="button">
+                                <div className="w-[220px] bg-green-600 rounded-lg hover:bg-green-800 mt-4">
+                                        <div className="flex flex-row text-white text-lg  ml-2 mr-2 mt-2 ">
+                                            Download Resume (.pdf)
+                                        </div>
+                                </div>
+                          </button>
                     </div>
                   </div>
                 <div className="flex flex-col items-center justify-center w-2/4 h-[550px]">
                   <div className="flex flex-row">
                   <img className="w-[450px]" src="./Image/profilePic.png"></img>
                   </div>
-                  <div className="flex flex-row font-jose text-white">
+                  <div className="flex flex-row  text-white">
                     
                   </div>
                 </div>
                </div> 
-               <div className="flex flex-col items-center justify-center w-full h-[60px]">
-                <div className="flex flex-row text-white font-jose">
+               <div className="flex flex-col items-center justify-center w-full h-[60px] font-jose">
+                <div className="flex flex-row text-white ">
                     This website is made using React, TypeScript, Tailwind and 💓
                 </div>
                 <Link to={"https://github.com/16sakuraa/Portfolio"} target="_blank" >
-                  <div className="flex flex-row text-white font-jose underline hover:text-yellow-300">
+                  <div className="flex flex-row text-white underline hover:text-yellow-300">
                       See source code 
                   </div>
                 </Link>

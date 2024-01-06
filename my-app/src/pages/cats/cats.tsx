@@ -48,7 +48,7 @@ function Cats(){
                     ></CatCard>
                     <CatCard
                     img="/Image/cats/Richy.jpg"
-                    name="Mr. Triangle"
+                    name="Richy"
                     age="1"
                     ></CatCard>
 
