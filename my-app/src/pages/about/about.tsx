@@ -1,12 +1,30 @@
 import NavBar from "../../component/navbar"
+import {Pagination} from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 function About(){
     return(
         <main>
             <div className="w-full h-screen bg-bannerbg bg-center">
             <NavBar></NavBar>
                 <div className="flex flex-row w-full font-jose ">
-                    <div className="flex flex-col items-center justify-center w-2/4 h-[550px] ">
-                        hello
+                    <div className="flex w-1/2 items-center justify-center ">
+                        <div className="flex flex-row w-1/2 ">
+                        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+                            <SwiperSlide>
+                                <img src="/Image/cats/placeholder.jpg" className="h-[530px] rounded-xl"></img>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src="/Image/cats/placeholder.jpg" className="h-[530px] rounded-xl"></img>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src="/Image/cats/placeholder.jpg" className="h-[530px] rounded-xl"></img>
+                            </SwiperSlide>
+                        </Swiper>
+                        </div>
                     </div>
                     <div className="flex flex-col  w-2/4 h-[550px] mt-[30px] text-white">
                         <div className="flex flex-row text-white text-5xl">About Me</div>
