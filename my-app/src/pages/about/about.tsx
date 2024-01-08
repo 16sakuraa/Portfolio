@@ -44,18 +44,24 @@ function About(){
                                     Bachelor of Engineering, Computer Major
                                 </div>
                                 <div className="flex flex-row ml-[30px] ">
-                                - GPA 3.06
+                                - GPA 3.06<br></br>
+                                - Intermediate English (Read, Write and Speak)
                                 </div>
                                 
                             </div>
                             <div className="flex flex-row w-full mt-[10px]">
                                 <div className="flex bg-slate-800 rounded-lg">
-                                    <div className="ml-2 mr-2 mt-1 text-2xl">Tools Use</div>
+                                    <div className="ml-2 mr-2 mt-1 text-2xl">Tools & Languages</div>
                                 </div>
                             </div>
                             <div className="flex flex-col w-[680px] bg-slate-800 bg-opacity-50 mt-[10px] rounded-lg text-white text-lg ">
                                 <div className="flex flex-row ml-[30px] mt-[5px]">
-                                    - Suppaphol Areewattanawong, 21. Nickname's Oat
+                                    - C, C++, C#, Javascript, Python, React, Typescript<br></br>
+                                    - Adobe (Photoshop, Premiere Pro)<br></br>
+                                    - Visual Studio Code<br></br>
+                                    - Microsoft Word, Excel<br></br>
+                                    - Git
+                                    
                                 </div>
 
                                 

@@ -18,7 +18,7 @@ function Cats(){
                     <div className="mt-5">My Mightiest Cats Family</div>
                 </div>
             
-                <div className="flex flex-row font-jose text-slate-800 items-center justify-center mt-5 gap-7">
+                <div className="flex flex-row font-jose text-slate-800 items-center justify-center mt-7 gap-7">
                     <CatCard
                     img="/Image/cats/Coke.png"
                     name="โค้ก"
