@@ -37,7 +37,7 @@ function App() {
                         <Link to={"https://github.com/16sakuraa"} target="_blank" ><img className="w-[40px] h-[40px] ml-[20px]" src="./Image/githubIcon.png"></img></Link>
                         
                       </div>
-                      <button type="button">
+                      <button type="button" onClick={() => window.location.href = 'https://drive.google.com/uc?export=download&id=1wGbsQ3DbkbvTxCoySSr9HVHxYJ7Fg5RK'}> 
                                 <div className="w-[220px] bg-green-600 rounded-lg hover:bg-green-800 mt-4">
                                         <div className="flex flex-row text-white text-lg  ml-2 mr-2 mt-2 ">
                                             Download Resume (.pdf)
