@@ -67,8 +67,8 @@ function About(){
                                 
                             </div>
                             {/* Download Link */}
-                            {/* https://drive.google.com/uc?export=download&id=1wGbsQ3DbkbvTxCoySSr9HVHxYJ7Fg5RK */}
-                            <button type="button" onClick={() => window.location.href = 'https://drive.google.com/uc?export=download&id=1wGbsQ3DbkbvTxCoySSr9HVHxYJ7Fg5RK'}> 
+                            {/* https://drive.google.com/uc?export=download&id=1xb_FllnGGwhuP6QZIgj9g1dzZ8QXXr8j */}
+                            <button type="button" onClick={() => window.location.href = 'https://drive.google.com/uc?export=download&id=1xb_FllnGGwhuP6QZIgj9g1dzZ8QXXr8j'}> 
                                 <div className="w-[220px] bg-green-600 rounded-lg hover:bg-green-800 mt-5">
                                         <div className="flex flex-row text-white text-lg  ml-2 mr-2 mt-2 ">
                                             Download Resume (.pdf)
