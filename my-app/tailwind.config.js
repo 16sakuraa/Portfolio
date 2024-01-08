@@ -10,7 +10,8 @@ module.exports = {
       },
       fontFamily: {
         "jose": ['Josefin Sans'],
-        "josebold": ['Josefin Sans Bold']
+        "josebold": ['Josefin Sans Bold'],
+        "itim": ['Itim']
       }
     },
   },

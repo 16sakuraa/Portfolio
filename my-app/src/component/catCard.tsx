@@ -10,7 +10,7 @@ interface CatCard {
 
 const CatCard: React.FC<CatCard> = ({img,name,age}) => {
   return (
-    <div className="flex flex-col bg-slate-100 h-[400px] w-[250px] rounded-lg text-3xl items-center justify-center">
+    <div className="flex flex-col h-[400px] w-[350px] rounded-lg text-3xl items-center justify-center font-itim text-white">
                     <div className="">
                         <img src={img} className="h-[300px] rounded-lg"></img>
                     </div>

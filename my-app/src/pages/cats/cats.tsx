@@ -12,46 +12,33 @@ function Cats(){
         
         <main>
             
-            <div className="w-full bg-auto bg-indigo-950 bg-center">
+            <div className="w-full h-screen bg-bannerbg bg-center">
             <NavBar></NavBar>
-            <div className="w-full text-center text-5xl font-jose text-white ">
-                <div className="mt-5">My Mightiest Cats Family</div>
-            </div>
+                <div className="text-center text-5xl font-jose text-white ">
+                    <div className="mt-5">My Mightiest Cats Family</div>
+                </div>
             
                 <div className="flex flex-row font-jose text-slate-800 items-center justify-center mt-5 gap-7">
                     <CatCard
-                    img="/Image/cats/cokePic.jpg"
-                    name="Coke"
+                    img="/Image/cats/Coke.png"
+                    name="โค้ก"
                     age="7"
                     ></CatCard>
                     <CatCard
-                    img="/Image/cats/triangle.jpg"
-                    name="Mr. Triangle"
+                    img="/Image/cats/Triangle.png"
+                    name="สามเหลี่ยม"
                     age="3"
                     ></CatCard>
                     <CatCard
-                    img="/Image/cats/placeholder.jpg"
-                    name="Bin"
-                    age="2"
-                    ></CatCard>
-                    <CatCard
-                    img="/Image/cats/Som.jpg"
-                    name="Som"
+                    img="/Image/cats/Som.png"
+                    name="ส้ม"
                     age="1"
                     ></CatCard>
-                </div>
-                <div className="flex flex-row font-jose text-slate-800 items-center justify-center mt-5 gap-7">
                     <CatCard
-                    img="/Image/cats/Lai.jpg"
-                    name="Lai"
-                    age="3"
-                    ></CatCard>
-                    <CatCard
-                    img="/Image/cats/Richy.jpg"
-                    name="Richy"
+                    img="/Image/cats/Richy.png"
+                    name="ริชชี่"
                     age="1"
                     ></CatCard>
-
                 </div>
                 {/* <div className="flex w-full items-center justify-center">
                     <div className="flex flex-row font-jose text-slate-800 w-[810px]">
