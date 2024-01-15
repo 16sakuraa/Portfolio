@@ -18,10 +18,10 @@ function About(){
                                 <img src="/Image/about/profile1.png" className="h-[530px] rounded-xl"></img>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/Image/cats/placeholder.jpg" className="h-[530px] rounded-xl"></img>
+                                <img src="/Image/about/profile2.png" className="h-[530px] rounded-xl"></img>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/Image/cats/placeholder.jpg" className="h-[530px] rounded-xl"></img>
+                                <img src="/Image/about/profile3.png" className="h-[530px] rounded-xl"></img>
                             </SwiperSlide>
                         </Swiper>
                         </div>
@@ -44,8 +44,8 @@ function About(){
                                     Bachelor of Engineering, Computer Major
                                 </div>
                                 <div className="flex flex-row ml-[30px] ">
-                                - GPA 3.06<br></br>
-                                - Intermediate English (Read, Write and Speak)
+                                - GPAX 3.06 (2021 - now)<br></br>
+                                - Intermediate English (Reading, Writing and Speaking)
                                 </div>
                                 
                             </div>
@@ -60,7 +60,7 @@ function About(){
                                     - Adobe (Photoshop, Premiere Pro)<br></br>
                                     - Visual Studio Code<br></br>
                                     - Microsoft Word, Excel<br></br>
-                                    - Git
+                                    - Git, Github
                                     
                                 </div>
 
